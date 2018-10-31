@@ -14,3 +14,8 @@ zuul:
     foos:
       path: /foos/**
       url: http://localhost:8090/usuarios/
+
+#Ribbon Activation
+ribbon:
+  eureka:
+    enabled: true      

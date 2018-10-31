@@ -7,3 +7,10 @@ eureka:
       default-zone: http://localhost:8761/eureka/
   instance:
     prefer-ip-address: true
+    
+#ZUUL
+zuul:
+  routes:
+    foos:
+      path: /foos/**
+      url: http://localhost:8090/usuarios/

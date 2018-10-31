@@ -9,11 +9,11 @@ eureka:
     prefer-ip-address: true
     
 #ZUUL
-#zuul:
-#  routes:
-#    foos:
-#      path: /foos/**
-#      url: http://localhost:8090/usuarios/
+zuul:
+  routes:
+    foos:
+      path: /foos/**
+      url: http://localhost:8090/usuarios/
 
 #Ribbon Activation
 ribbon:
